@@ -2,10 +2,8 @@
 #include <deque>
 #include <iostream>
 #include <ctime>
-#include <stdlib.h>
-#include <limits>
 
-#define SIZE 1000
+#define SIZE 10
 
 template<class T>
 void InputData(std::deque<T>& v, T min, T max);
@@ -23,24 +21,24 @@ int main() {
 
 	srand((unsigned int)time(0));
 
-	std::deque<float> v;
+	std::deque<double> v, result;
+
 	double left = 0, right = 0;
-
-	EnterLeftRight(left, right);
-
-	InputData(v, (float)left, (float)right);
 
 	short choice = SetChoice();
 
-	SimpleMovingAverage(v,choice);
+	EnterLeftRight(left, right);
+	InputData(v, left, right);
 
-	PrintData(v);
+	result = SimpleMovingAverage(v,choice);
+
+	return 0;
 }
 
 template<class T>
-void PrintData(std::deque<T>& v) {
+void PrintData(std::deque<T>& data) {
 	std::cout << std::fixed;
-	for (auto& el : v) {
+	for (auto& el : data) {
 		std::cout << el << '\n';
 	}
 }
