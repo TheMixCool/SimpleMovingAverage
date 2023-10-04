@@ -10,9 +10,6 @@ template<class T>
 void InputData(std::deque<T>& data, T leftDataLimit, T rightDataLimit);
 
 template<class T>
-void PrintData(std::deque<T>& data);
-
-template<class T>
 void EnterLeftRight(T& leftDataLimit, T& rightDataLimit);
 
 short SetChoice();
@@ -35,16 +32,9 @@ int main() {
 
 	dataOutput = SimpleMovingAverage(dataInput,windowSize);
 
-	std::cout << "Runtime = " << (clock() - startCalculationsTime) / 1000.0;
-	return 0;
-}
+	std::cout << "Runtime = " << (clock() - startCalculationsTime) / 1000.0 << '\n';
 
-template<class T>
-void PrintData(std::deque<T>& data) {
-	std::cout << std::fixed;
-	for (auto& element : data) {
-		std::cout << element << '\n';
-	}
+	return 0;
 }
 
 template<class T>
