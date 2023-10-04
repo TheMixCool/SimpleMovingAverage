@@ -2,61 +2,65 @@
 #include <deque>
 #include <iostream>
 #include <ctime>
+#include <time.h>
 
-#define SIZE 10
-
-template<class T>
-void InputData(std::deque<T>& v, T min, T max);
+#define SIZE 1000000
 
 template<class T>
-void PrintData(std::deque<T>& v);
+void InputData(std::deque<T>& data, T leftDataLimit, T rightDataLimit);
 
 template<class T>
-void EnterLeftRight(T& left, T& right);
+void PrintData(std::deque<T>& data);
+
+template<class T>
+void EnterLeftRight(T& leftDataLimit, T& rightDataLimit);
 
 short SetChoice();
 
 
 int main() {
 
-	srand((unsigned int)time(0));
+	srand(time(0));
 
-	std::deque<double> v, result;
+	std::deque<float> dataInput, dataOutput;
 
-	double left = 0, right = 0;
+	float leftDataLimit = 0, rightDataLimit = 0;
+	EnterLeftRight(leftDataLimit, rightDataLimit);
 
-	short choice = SetChoice();
+	short windowSize = SetChoice();
 
-	EnterLeftRight(left, right);
-	InputData(v, left, right);
+	InputData(dataInput, leftDataLimit, rightDataLimit);
+	
+	clock_t startCalculationsTime = clock();
 
-	result = SimpleMovingAverage(v,choice);
+	dataOutput = SimpleMovingAverage(dataInput,windowSize);
 
+	std::cout << "Runtime = " << (clock() - startCalculationsTime) / 1000.0;
 	return 0;
 }
 
 template<class T>
 void PrintData(std::deque<T>& data) {
 	std::cout << std::fixed;
-	for (auto& el : data) {
-		std::cout << el << '\n';
+	for (auto& element : data) {
+		std::cout << element << '\n';
 	}
 }
 
 template<class T>
-void InputData(std::deque<T>& v, T min, T max) {
+void InputData(std::deque<T>& data, T leftDataLimit, T rightDataLimit) {
 	for (int i = 0; i != SIZE; ++i) {
-		T temp = (T)(rand()) / RAND_MAX * (max - min) + min;
-		v.push_back(temp);
+		T temp = (T)(rand()) / RAND_MAX * (rightDataLimit - leftDataLimit) + leftDataLimit;
+		data.push_back(temp);
 	}
 }
 
 template<class T>
-void EnterLeftRight(T& left, T& right) {
+void EnterLeftRight(T& leftDataLimit, T& rightDataLimit) {
 	std::cout << "Enter left limit: ";
-	std::cin >> left;
+	std::cin >> leftDataLimit;
 	std::cout << "Enter right limit: ";
-	std::cin >> right;
+	std::cin >> rightDataLimit;
 }
 
 short SetChoice() {
