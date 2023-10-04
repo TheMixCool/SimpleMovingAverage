@@ -29,4 +29,3 @@ std::deque<T> SimpleMovingAverage(std::deque<T>& data, int windowSize) {
 
 	return result;
 }
-
