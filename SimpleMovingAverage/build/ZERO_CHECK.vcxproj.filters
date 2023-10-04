@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TheMix\Desktop\Simple_moving_average\SimpleMovingAverage\build\CMakeFiles\483f41dfd264c1be3721171ce4875e20\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{EBD4509C-0CC3-37F4-9DCC-120EE3638994}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\TheMix\Desktop\Simple_moving_average\SimpleMovingAverage\SimpleMovingAverage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\TheMix\Desktop\Simple_moving_average\SimpleMovingAverage\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\TheMix\Desktop\Simple_moving_average\SimpleMovingAverage\SimpleMovingAverage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\TheMix\Desktop\Simple_moving_average\SimpleMovingAverage\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4B8B13FA-0FED-3D32-A315-0289AEEEAD79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{41937CB8-E22D-3D42-9B7A-3278328AC71A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/build/CMakeFiles/SimpleMovingAverage.dir
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/build/CMakeFiles/ZERO_CHECK.dir
