@@ -4,7 +4,7 @@
 #include <ctime>
 #include <time.h>
 
-#define SIZE 1000000
+#define SIZE 10000000
 
 template<class T>
 void InputData(std::deque<T>& data, T leftDataLimit, T rightDataLimit);
@@ -13,7 +13,6 @@ template<class T>
 void EnterLeftRight(T& leftDataLimit, T& rightDataLimit);
 
 short SetChoice();
-
 
 int main() {
 
