@@ -1,0 +1,22 @@
+# ninja log v5
+5	861	7180807645603439	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+8	580	7180807847573097	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+8	566	7180807962030561	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+10	576	7180807962130650	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+8	569	7180808392619252	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+10	577	7180808392699326	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+9	578	7180808521435369	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+579	832	7180808523707432	SimpleMovingAverage.exe	57fb929a18d7ad91
+8	575	7180809840212621	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+575	694	7180809841063396	SimpleMovingAverage.exe	57fb929a18d7ad91
+9	577	7180809973417636	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+8	575	7180810302797246	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+1	564	7180812028713249	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+4	573	7180812028793312	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+9	564	7180814119091961	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+12	588	7180815487764172	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+9	572	7180816135193979	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+573	702	7180816136114830	SimpleMovingAverage.exe	57fb929a18d7ad91
+9	565	7180817097744351	CMakeFiles/SimpleMovingAverage.dir/SimpleMovingAverage.cpp.obj	d396eb8a9c4e8199
+12	582	7180817097914501	CMakeFiles/SimpleMovingAverage.dir/Main.cpp.obj	f7f4fe6ff2d9eb26
+582	704	7180817098795301	SimpleMovingAverage.exe	57fb929a18d7ad91

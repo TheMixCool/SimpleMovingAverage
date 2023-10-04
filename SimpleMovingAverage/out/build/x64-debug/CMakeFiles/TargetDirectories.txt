@@ -1,0 +1,3 @@
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/out/build/x64-debug/CMakeFiles/SimpleMovingAverage.dir
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/out/build/x64-debug/CMakeFiles/edit_cache.dir
+C:/Users/TheMix/Desktop/Simple_moving_average/SimpleMovingAverage/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
